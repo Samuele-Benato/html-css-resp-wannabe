@@ -128,15 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 @media screen and (max-width: 1160px) {
-  section .container {
+  .container {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  section .container {
+  .container {
     width: 90%;
-    max-width: 750px;
     padding: 0;
   }
 }
@@ -144,7 +143,6 @@ img {
 @media screen and (max-width: 479px) {
   .container {
     width: 90%;
-    max-width: 460px;
   }
   .row {
     flex-wrap: wrap;
@@ -170,5 +168,14 @@ img {
   .why-us .col-right {
     width: 100%;
     padding: 20px 0;
+  }
+
+  .why-us {
+    background: #222222;
+    padding-top: 3rem;
+  }
+
+  .steps {
+    margin: 0;
   }
 }
