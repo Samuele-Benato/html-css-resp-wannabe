@@ -150,22 +150,7 @@ img {
     justify-content: center;
   }
 
-  .lessons .col {
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .steps .col {
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .why-us .col-left {
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .why-us .col-right {
+  .row .col {
     width: 100%;
     padding: 20px 0;
   }
